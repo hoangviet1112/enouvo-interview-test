@@ -1,0 +1,26 @@
+.discover {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    .title {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FCFCFD;
+        margin-top: 128px;
+        display: flex;
+        justify-content: flex-start;
+        width: 78%;
+    }
+
+    hr {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+}

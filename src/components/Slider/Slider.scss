@@ -1,0 +1,49 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+
+    .range-bar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        #p-1 {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 20px;
+            color: #FCFCFD;
+        }
+
+        #p-2 {
+            position: absolute;
+            top: 15px;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B1B5C4;
+        }
+
+        input {
+            margin-top: 5px;
+        }
+    }
+
+    .values {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FCFCFD;
+        }
+    }
+}

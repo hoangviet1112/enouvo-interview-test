@@ -1,0 +1,41 @@
+.open {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .dropdown {
+        width: 100%;
+        
+        p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B1B5C4;
+        }
+    }
+
+    .slider {
+        width: 100%;    
+    }
+}
+
+.responsive-section {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .open {
+        display: none;
+    }
+
+    .responsive-section {
+        visibility: visible;
+        height: auto;
+    }
+}

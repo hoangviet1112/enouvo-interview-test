@@ -1,0 +1,12 @@
+.card-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 78%;
+    margin: 80px 160px 0px 160px;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}

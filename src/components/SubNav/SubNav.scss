@@ -1,0 +1,10 @@
+.sub-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 28px;
+    padding: 0px;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}

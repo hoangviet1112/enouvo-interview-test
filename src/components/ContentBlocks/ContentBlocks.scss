@@ -1,0 +1,28 @@
+.content-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 268px;
+    text-align: center;
+
+    p {
+        font-family: "Poppins", sans-serif;
+        color: #777E90;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-family: "DM Sans", sans-serif;
+        color: #FCFCFD;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
